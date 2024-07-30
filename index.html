@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/logo.png">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="inp">
+            <input type="text" disabled id="display" placeholder="TigerCalculator">
+        </div>
+
+        <div class="btn">
+
+
+            <button onclick=" append(event)">1</button>
+            <button onclick=" append(event)">2</button>
+            <button onclick=" append(event)">3</button>
+            <button onclick=" append(event)">+</button>
+            <br>
+            <button onclick=" append(event)">4</button>
+            <button onclick=" append(event)">5</button>
+            <button onclick=" append(event)">6</button>
+            <button onclick=" append(event)">-</button>
+            <br>
+            <button onclick=" append(event)">7</button>
+            <button onclick=" append(event)">8</button>
+            <button onclick=" append(event)">9</button>
+            <button onclick=" append(event)">/</button>
+            <br>
+            <button onclick=" append(event)">0</button>
+
+            <button onclick="clearinput()">c</button>
+
+            <button onclick=" append(event)">*</button>
+
+            <button onclick=" result()">=</button>
+            <p>&copy; 2024 copyright</p>
+            <p>Tiger-Mini-Calculator</p>
+        </div>
+        
+    </div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
